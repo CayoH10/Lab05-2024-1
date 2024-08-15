@@ -6,20 +6,14 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-import list.EstruturaElementar;
+
 import list.Sorter;
 import main.sorter.MergeSort;
 import main.sorter.QuickSorter;
 
 public class AppTest {
 
-    private EstruturaElementar e;
-
-    @Before
-    public void setUp() throws Exception {
-        e = null;
-    }
-
+    
     @Test
     public void testMerge() {
         Sorter m = new MergeSort();
